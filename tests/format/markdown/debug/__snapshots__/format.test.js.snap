@@ -1,0 +1,28 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`list-and-block.md - {"proseWrap":"always"} format 1`] = `
+====================================options=====================================
+parsers: ["markdown"]
+printWidth: 80
+proseWrap: "always"
+                                                                                | printWidth
+=====================================input======================================
+- test
+  \`\`\`md
+  <!-- prettier-ignore -->
+  - This is a long long
+    long long long long
+    long long paragraph.
+  \`\`\`
+
+=====================================output=====================================
+- test
+  \`\`\`md
+  <!-- prettier-ignore -->
+  - This is a long long
+    long long long long
+    long long paragraph.
+  \`\`\`
+
+================================================================================
+`;
